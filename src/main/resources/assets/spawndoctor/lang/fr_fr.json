@@ -1,0 +1,11 @@
+{
+    "spawndoctor.title": "Spawn Doctor — pourquoi ta ferme à mobs est morte :",
+    "spawndoctor.playeronly": "À lancer en tant que joueur, à l'endroit où tu attends les spawns.",
+    "spawndoctor.cooldown": "Patiente encore %s seconde(s) avant de relancer /spawndoctor.",
+    "spawndoctor.peaceful": "La difficulté est PAISIBLE — les mobs hostiles n'apparaissent jamais. C'est tout le problème.",
+    "spawndoctor.nomobspawning": "La règle doMobSpawning est DÉSACTIVÉE — rien d'hostile n'apparaît nulle part.",
+    "spawndoctor.captheft": "%1$s mobs hostiles sont chargés LOIN de toi, seulement %2$s près. Les lointains consomment le même quota d'apparition que ta ferme — éclaire les grottes / nettoie-les. Cause n°1 d'une ferme bien construite mais morte.",
+    "spawndoctor.none": "Aucun blocage net ici. Vérifie : le niveau de lumière sur la plateforme (un overlay de spawn), la construction, et que tu es AFK à 24-128 blocs de la plateforme.",
+    "spawndoctor.info.ring": "Les mobs apparaissent à 24-128 blocs du joueur : reste AFK à au moins 24 blocs, et la plateforme doit être dans les 128 blocs.",
+    "spawndoctor.info.sim": "Distance de simulation du serveur : %s chunks — la ferme doit être à cette portée de ton point AFK pour tourner."
+}

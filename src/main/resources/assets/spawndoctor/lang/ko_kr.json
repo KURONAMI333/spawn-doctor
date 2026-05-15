@@ -1,0 +1,11 @@
+{
+    "spawndoctor.title": "Spawn Doctor — 몹 농장이 안 도는 이유:",
+    "spawndoctor.playeronly": "플레이어로, 몹이 생길 거라 기대하는 위치에 서서 실행하세요.",
+    "spawndoctor.cooldown": "%s초 더 기다린 뒤에 /spawndoctor 를 다시 실행하세요.",
+    "spawndoctor.peaceful": "난이도가 평화로움 — 적대 몹은 절대 생기지 않아요. 원인은 이거예요.",
+    "spawndoctor.nomobspawning": "게임규칙 doMobSpawning 이 꺼져 있어요 — 어디서도 적대 몹이 안 생겨요.",
+    "spawndoctor.captheft": "적대 몹 %1$s마리가 당신에게서 멀리 로드돼 있고 가까이엔 %2$s마리뿐. 먼 쪽이 농장에 필요한 스폰 한도를 잡아먹어요 — 동굴을 밝히거나 치우세요. '제대로 지었는데 죽은 농장'의 1순위 원인.",
+    "spawndoctor.none": "여기선 확실한 차단 요인이 없어요. 확인: 플랫폼 밝기(스폰 오버레이 사용), 구조 자체, 그리고 플랫폼에서 24-128블록 떨어져 AFK 중인지.",
+    "spawndoctor.info.ring": "몹은 플레이어로부터 24-128블록에서 생깁니다: 최소 24블록 떨어져 AFK 하고, 플랫폼은 128블록 이내여야 해요.",
+    "spawndoctor.info.sim": "서버 시뮬레이션 거리: %s청크 — AFK 지점에서 그 범위 안에 농장이 있어야 작동해요."
+}
