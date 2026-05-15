@@ -1,0 +1,11 @@
+{
+    "spawndoctor.title": "Spawn Doctor — por qué tu granja de mobs está muerta:",
+    "spawndoctor.playeronly": "Ejecútalo como jugador, parado donde esperas que aparezcan.",
+    "spawndoctor.cooldown": "Espera %s segundo(s) más antes de usar /spawndoctor otra vez.",
+    "spawndoctor.peaceful": "La dificultad es PACÍFICO — los mobs hostiles nunca aparecen. Ese es todo el problema.",
+    "spawndoctor.nomobspawning": "La regla doMobSpawning está APAGADA — no aparece nada hostil en ningún lado.",
+    "spawndoctor.captheft": "%1$s mobs hostiles están cargados LEJOS de ti y solo %2$s cerca. Los lejanos consumen el mismo cupo de aparición que tu granja necesita — ilumina cuevas / límpialas. Razón nº1 de una granja bien construida pero muerta.",
+    "spawndoctor.none": "Sin bloqueo claro aquí. Revisa: nivel de luz en la plataforma (usa un overlay de spawn), la construcción, y que estés AFK a 24-128 bloques de la plataforma.",
+    "spawndoctor.info.ring": "Los mobs aparecen a 24-128 bloques del jugador: ponte AFK al menos a 24 bloques, y la plataforma debe estar dentro de 128 bloques de ti.",
+    "spawndoctor.info.sim": "Distancia de simulación del servidor: %s chunks — la granja debe estar dentro de eso desde tu punto AFK para funcionar."
+}

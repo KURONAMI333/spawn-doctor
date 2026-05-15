@@ -1,0 +1,11 @@
+{
+    "spawndoctor.title": "Spawn Doctor — 你的刷怪场为什么不刷：",
+    "spawndoctor.playeronly": "请以玩家身份，站在你期望刷怪的位置执行。",
+    "spawndoctor.cooldown": "请再等 %s 秒后再使用 /spawndoctor。",
+    "spawndoctor.peaceful": "难度是和平 —— 敌对生物永远不会刷。问题就在这。",
+    "spawndoctor.nomobspawning": "游戏规则 doMobSpawning 已关闭 —— 任何地方都不会刷敌对生物。",
+    "spawndoctor.captheft": "有 %1$s 只敌对生物加载在离你很远处，附近只有 %2$s 只。远处那些占用了你刷怪场需要的同一刷怪额度 —— 点亮洞穴／清理掉。这是“正确建造却不刷”的头号原因。",
+    "spawndoctor.none": "这里没有发现硬性阻碍。检查：平台亮度（用刷怪覆盖层）、建筑本身、以及你是否在距平台 24-128 格处挂机。",
+    "spawndoctor.info.ring": "怪物在距玩家 24-128 格处生成：挂机至少离开 24 格，且平台必须在你 128 格以内。",
+    "spawndoctor.info.sim": "服务器模拟距离：%s 区块 —— 刷怪场必须在你挂机点的该范围内才会运行。"
+}
