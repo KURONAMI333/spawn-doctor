@@ -4,7 +4,7 @@
     "spawndoctor.cooldown": "Espere mais %s segundo(s) antes de usar /spawndoctor de novo.",
     "spawndoctor.peaceful": "A dificuldade é PACÍFICO — mobs hostis nunca aparecem. É esse o problema todo.",
     "spawndoctor.nomobspawning": "A regra doMobSpawning está DESLIGADA — nada hostil aparece em lugar nenhum.",
-    "spawndoctor.captheft": "%1$s mobs hostis estão carregados LONGE de você e só %2$s perto. Os distantes consomem o mesmo limite de spawn que sua farm precisa — ilumine cavernas / limpe-os. Causa nº1 de uma farm bem construída mas morta.",
+    "spawndoctor.captheft": "%1$s mobs hostis estão carregados LONGE de você e só %2$s perto — os distantes podem estar consumindo o limite de spawn que sua farm precisa (hostis compartilham um limite). Tente iluminar cavernas / limpá-los. Frequentemente a causa nº1 de uma farm bem construída mas morta.",
     "spawndoctor.none": "Nenhum bloqueio claro aqui. Verifique: nível de luz na plataforma (use um overlay de spawn), a construção, e se você está AFK a 24-128 blocos da plataforma.",
     "spawndoctor.info.ring": "Mobs aparecem a 24-128 blocos do jogador: fique AFK a pelo menos 24 blocos, e a plataforma deve estar a até 128 blocos de você.",
     "spawndoctor.info.sim": "Distância de simulação do servidor: %s chunks — a farm precisa estar dentro disso do seu ponto AFK para rodar."
