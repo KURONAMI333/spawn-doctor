@@ -60,6 +60,9 @@ public class SpawnDoctorCommand {
         }
         lastRunMs = now;
 
+        if (player.getServer() == null) {
+            return Command.SINGLE_SUCCESS;
+        }
         ServerLevel level = player.serverLevel();
         boolean peaceful = level.getDifficulty() == Difficulty.PEACEFUL;
         boolean mobSpawn = level.getGameRules().getBoolean(GameRules.RULE_DOMOBSPAWNING);

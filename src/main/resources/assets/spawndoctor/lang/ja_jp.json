@@ -4,7 +4,7 @@
     "spawndoctor.cooldown": "あと %s 秒待ってから /spawndoctor を再実行してね。",
     "spawndoctor.peaceful": "難易度が PEACEFUL — 敵対mobは絶対湧かない。原因はこれ。",
     "spawndoctor.nomobspawning": "gamerule doMobSpawning が OFF — どこでも敵対mobは湧かない。",
-    "spawndoctor.captheft": "敵対mobが %1$s 体あなたから遠くにロード中、近くは %2$s 体だけ。遠くの連中が farm に必要な湧き枠を食ってる — 洞窟を湧き潰す/掃除して。「正しく作ったのに死んでる farm」の最大原因。",
+    "spawndoctor.captheft": "敵対mobが %1$s 体あなたから遠くにロード中、近くは %2$s 体だけ — 遠くの連中が farm に必要な湧き枠を食ってる可能性がある（敵対mobは湧き上限を共有）。洞窟を湧き潰す/掃除を試して。「正しく作ったのに死んでる farm」でよくある最大要因。",
     "spawndoctor.none": "決定的な阻害要因はここでは見つからない。確認: プラットフォームの光レベル(湧きオーバーレイで)、建築そのもの、AFK 位置がプラットフォームから 24〜128 ブロックか。",
     "spawndoctor.info.ring": "mob はプレイヤーから 24〜128 ブロックで湧く: 24 ブロック以上離れて AFK し、プラットフォームは自分から 128 ブロック以内に。",
     "spawndoctor.info.sim": "サーバーのシミュレーション距離: %s チャンク — AFK 地点からその範囲内に farm がないと tick しない。"
