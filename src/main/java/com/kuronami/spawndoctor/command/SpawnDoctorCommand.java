@@ -32,6 +32,9 @@ import net.neoforged.neoforge.event.RegisterCommandsEvent;
 public class SpawnDoctorCommand {
 
     private static final long COOLDOWN_MS = 30_000L;
+    /** Hard floor even for ops — the scan is a full-dimension entity
+     *  sweep; a looping op/command-block must not sweep every tick. */
+    private static final long OP_FLOOR_MS = 3_000L;
     private static final double NEAR_SQ = 128.0 * 128.0;
     private static final int CAP_THEFT_MIN = 30;
 
@@ -52,8 +55,13 @@ public class SpawnDoctorCommand {
         boolean op = src.hasPermission(2);
         long now = System.currentTimeMillis();
         long since = now - lastRunMs;
-        if (!op && lastRunMs != 0L && since < COOLDOWN_MS) {
-            int wait = (int) Math.ceil((COOLDOWN_MS - since) / 1000.0);
+        // Ops get a short floor instead of a full bypass: each call does
+        // a full-dimension getAllEntities() sweep on the server thread,
+        // so an op / command-block / script looping it must not be able
+        // to sweep every tick. Latency for a human op stays fine at 3s.
+        long cd = op ? OP_FLOOR_MS : COOLDOWN_MS;
+        if (lastRunMs != 0L && since < cd) {
+            int wait = (int) Math.ceil((cd - since) / 1000.0);
             src.sendSuccess(() -> Component.translatable("spawndoctor.cooldown", wait)
                 .withStyle(ChatFormatting.YELLOW), false);
             return Command.SINGLE_SUCCESS;
