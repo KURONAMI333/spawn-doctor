@@ -1,0 +1,11 @@
+{
+    "spawndoctor.title": "Spawn Doctor — why your mob farm is dead:",
+    "spawndoctor.playeronly": "Run this as a player, standing where you expect spawns.",
+    "spawndoctor.cooldown": "Please wait %s more second(s) before /spawndoctor again.",
+    "spawndoctor.peaceful": "Difficulty is PEACEFUL — hostile mobs never spawn. That is the whole problem.",
+    "spawndoctor.nomobspawning": "The gamerule doMobSpawning is OFF — nothing hostile spawns anywhere.",
+    "spawndoctor.captheft": "%s hostile mobs are loaded FAR from you vs only %s nearby — those can be consuming the spawn budget your farm needs (hostiles share a cap). Try lighting up caves / clearing them. This is often the #1 cause of a correctly-built but dead farm.",
+    "spawndoctor.none": "No hard blocker found here. Check: light level on the platform (use a spawn overlay), the build itself, and that you AFK 24-128 blocks from the platform.",
+    "spawndoctor.info.ring": "Mobs spawn 24-128 blocks from a player: AFK at least 24 blocks away, and the platform must be within 128 blocks of you.",
+    "spawndoctor.info.sim": "Server simulation distance: %s chunks — the farm must be within that of your AFK spot to tick."
+}
