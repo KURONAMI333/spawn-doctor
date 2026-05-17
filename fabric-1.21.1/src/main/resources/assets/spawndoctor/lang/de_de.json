@@ -1,0 +1,11 @@
+{
+    "spawndoctor.title": "Spawn Doctor — warum deine Mob-Farm tot ist:",
+    "spawndoctor.playeronly": "Als Spieler ausführen, an der Stelle stehend, wo du Spawns erwartest.",
+    "spawndoctor.cooldown": "Bitte warte noch %s Sekunde(n) vor dem nächsten /spawndoctor.",
+    "spawndoctor.peaceful": "Schwierigkeit ist FRIEDLICH — feindliche Mobs spawnen nie. Das ist das ganze Problem.",
+    "spawndoctor.nomobspawning": "Die Spielregel doMobSpawning ist AUS — nirgends spawnt etwas Feindliches.",
+    "spawndoctor.captheft": "%1$s feindliche Mobs sind WEIT von dir geladen, nur %2$s nahe — die fernen können dasselbe Spawn-Budget verbrauchen, das deine Farm braucht (Feinde teilen sich ein Limit). Versuch, Höhlen zu beleuchten / sie zu entfernen. Oft Hauptgrund Nr. 1 für eine korrekt gebaute, aber tote Farm.",
+    "spawndoctor.none": "Kein harter Blocker hier gefunden. Prüfe: Lichtlevel der Plattform (Spawn-Overlay), den Bau selbst, und ob du 24-128 Blöcke von der Plattform AFK bist.",
+    "spawndoctor.info.ring": "Mobs spawnen 24-128 Blöcke vom Spieler: mind. 24 Blöcke entfernt AFK, und die Plattform muss innerhalb von 128 Blöcken sein.",
+    "spawndoctor.info.sim": "Server-Simulationsdistanz: %s Chunks — die Farm muss innerhalb davon zu deinem AFK-Punkt liegen, um zu ticken."
+}
