@@ -1,5 +1,3 @@
-# Spawn Doctor
-
 You built the mob farm exactly like the tutorial and nothing spawns. `/spawndoctor` tells you why, in plain words — not a flame graph, not an overlay.
 
 Spawn-overlay mods only show light level. None of them explain why a correctly-built farm produces nothing: hostiles loaded far away eating the spawn budget, an AFK spot too close, or simulation distance. Stand where you expect spawns and run the command.
@@ -16,6 +14,6 @@ It calls out the dead-certain causes (Peaceful difficulty, `doMobSpawning` off),
 
 Read-only and on-demand: no mixin, no config, no blocks or items.
 
-Server-side — install on the server only.
+Bugs and questions: comment on the CurseForge page, or DM @kuronami333 on X.
 
-Free to use in any modpack. Source and issues: https://github.com/KURONAMI333/spawn-doctor
+All Rights Reserved. Modpack inclusion is allowed without permission or credit. Source: https://github.com/KURONAMI333/spawn-doctor
